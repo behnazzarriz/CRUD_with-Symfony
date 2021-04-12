@@ -28,5 +28,7 @@ php bin/console make:entity,
 8- And now in order to create a table in the database, we need two things:
   The first is migration file I create migrations in this way: php bin/console make:migration
   The second,I want to do now is to make database table using migration code so: php bin/console doctrine:migrations:migrate
-9-And as you can see, I have put CRUD Functions in the ToDoList Controller in .  
+9-And as you can see, I have put CRUD Functions in the ToDoList controller in the folder Src.
+
+# This is my little project doing CRUD Operations by Symfony
 
